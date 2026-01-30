@@ -1,67 +1,58 @@
-/* Step 3: Typography & Step 4: Spacing */
+/* Step 3: Typography */
 body {
-    font-family: Arial, sans-serif; /* Readable font */
-    line-height: 1.6;               /* Line height for paragraphs */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
     color: #333;
     margin: 0;
-    padding: 0;
 }
 
-/* Step 8: Layout Constraint & Step 4: Padding */
+/* Step 8: Layout Constraint */
 main {
-    max-width: 800px;  /* Limit content width */
-    margin: 0 auto;    /* Center the content */
-    padding: 20px;     /* Padding to main content */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Step 5: Header & Footer styling */
+/* Step 5: Header & Footer */
 header, footer {
-    background-color: #f4f4f4; /* Subtle background */
-    padding: 30px;
+    background-color: #f8f9fa;
+    padding: 40px 20px;
     text-align: center;
 }
 
-/* Step 3: Font sizes */
-h1 { font-size: 2.5rem; }
-h2 { font-size: 1.8rem; }
-
-/* Step 4: Vertical spacing between sections */
-section {
-    margin-bottom: 40px; 
-    padding: 10px 0;
-}
-
-/* Step 6: Navigation styling (List to Horizontal) */
+/* Step 6: Navigation Styling */
 nav ul {
-    list-style: none; /* Remove bullets */
+    list-style: none; /* Removes bullets */
     padding: 0;
 }
 
 nav li {
-    display: inline;  /* Make horizontal */
-    margin: 0 10px;
+    display: inline; /* Makes list horizontal */
+    margin: 0 15px;
 }
 
 nav a {
-    text-decoration: none; /* Remove underline */
-    color: blue;
+    text-decoration: none;
+    color: #007bff;
 }
 
-/* Step 2: Pseudo-class selector */
+/* Step 2: Pseudo-class */
 nav a:hover {
-    color: darkblue;
     text-decoration: underline;
+    color: #0056b3;
 }
 
 /* Step 7: Responsive images */
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Step 2: Class selector */
 .card {
     border: 1px solid #ddd;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
 }
