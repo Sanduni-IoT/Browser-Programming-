@@ -13,21 +13,21 @@ main {
     padding: 20px;
 }
 
-/* Step 5: Header & Footer */
+/* Step 5: Header & Footer background */
 header, footer {
     background-color: #f8f9fa;
     padding: 40px 20px;
     text-align: center;
 }
 
-/* Step 6: Navigation Styling */
+/* Step 6: Horizontal Navigation */
 nav ul {
-    list-style: none; /* Removes bullets */
+    list-style: none; /* No bullets */
     padding: 0;
 }
 
 nav li {
-    display: inline; /* Makes list horizontal */
+    display: inline; /* Side-by-side */
     margin: 0 15px;
 }
 
@@ -36,7 +36,7 @@ nav a {
     color: #007bff;
 }
 
-/* Step 2: Pseudo-class */
+/* Step 2: Pseudo-class selector */
 nav a:hover {
     text-decoration: underline;
     color: #0056b3;
@@ -55,4 +55,5 @@ img {
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 8px;
+    background-color: #ffffff;
 }
