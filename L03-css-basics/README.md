@@ -1,38 +1,18 @@
-# Lecture 02 – Semantic HTML & Structure
+# Lecture 03 – CSS Basics
 
 ## 1. What I implemented this lecture
-- Organized content using `<header>`, `<main>`, `<section>`, and `<footer>`.
-- Implemented a "Skip to content" link for keyboard accessibility.
-- Used `<figure>` and `<figcaption>` to group images and the video iframe.
-- Created a logical heading hierarchy from `<h1>` to `<h3>`.
+* Integrated an external CSS stylesheet to style the portfolio.
+* Used the CSS Box Model (margin and padding) to create a clean layout.
+* Implemented responsive image handling using `max-width: 100%`.
+* Styled a navigation list to appear horizontally without bullet points.
 
-## 2. Semantic decisions I made
-### Decision 1
-- Element(s) used: `<header>`
-- Where in the page: Top of the body
-- Why this element is semantically correct: It groups my name and bio as introductory content rather than just using a generic `div`.
+## 2. CSS Selectors Used
+* **Element:** `body`, `main`, `img`
+* **Group:** `header, footer`
+* **Descendant:** `nav ul`, `nav li`
+* **Class:** `.card`
+* **Pseudo-class:** `a:hover`
 
-### Decision 2
-- Element(s) used: `<section>`
-- Where in the page: Portfolio and Areas of Interest
-- Why this element is semantically correct: It defines a thematic grouping of content, helping screen readers understand the page layout.
-
-### Decision 3
-- Element(s) used: `<figure>` and `<figcaption>`
-- Where in the page: Inside the Portfolio section
-- Why this element is semantically correct: It links my media (images/video) directly to their text descriptions so they are treated as a single unit.
-
-## 3. Accessibility considerations
-- Included a skip link to allow users to bypass the header content.
-- Provided descriptive `alt` text for all images to assist visually impaired users.
-
-## 4. What I learned
-- I learned how to structure a document so that it is readable by machines and humans without using CSS.
-
-## 5. What I still need to improve
-- I need to practice more with complex ARIA labels for advanced accessibility.
-
-## 6. Notes about AI usage
-- Tool used: Gemini
-- What I accepted as-is: The semantic structure and accessibility skip-link logic.
-- What I modified manually: My personal details, name, and interest list.
+## 3. Self-Reflection
+* **Success:** Successfully centered the main content using `margin: 0 auto`.
+* **Struggle:** It took a few tries to get the horizontal navigation list perfectly aligned.
